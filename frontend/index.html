@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantane | Items Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📦 Items Manager</h1>
+            <p>Developed by <a href="https://nf-d.netlify.app" target="_blank">Pantane</a></p>
+        </header>
+
+        <div class="add-section">
+            <input type="text" id="itemInput" placeholder="Enter item name..." autocomplete="off">
+            <button id="addBtn">➕ Add Item</button>
+        </div>
+
+        <div class="stats">
+            <span>Total Items: <span id="itemCount">0</span></span>
+        </div>
+
+        <div id="itemsList" class="items-list">
+            <div class="loading">Loading items...</div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 <a href="https://nf-d.netlify.app" target="_blank">Pantane</a>. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
