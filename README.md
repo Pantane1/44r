@@ -135,7 +135,7 @@ curl -X DELETE http://localhost:3001/api/items/1
 
 📝 License
 
-[MIT License]() - feel free to use and modify!
+[MIT License](https://github.com/Pantane1/44r/blob/main/LICENSE) - feel free to use and modify!
 
 🙏 Credits
 
